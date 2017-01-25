@@ -9,6 +9,14 @@ Done for 4 days.
 - Return URLs of top 10 results in JSON file
 - Search query and output file name are given as command-line arguments
 
+## Build
+
+GHC 8.0.1 and LTS-7.16 were used. To build do:
+
+```
+$ stack build
+```
+
 ## Implementation
 
 Library exposes public functions for retrieving top URLs from the site.
