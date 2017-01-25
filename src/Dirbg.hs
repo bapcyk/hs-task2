@@ -17,7 +17,7 @@ import qualified Data.ByteString.Lazy.Char8 as LBS
 
 
 -- | Base URL of the site
-baseUrl =  "http://www.dir.bg/my/search.php?textfield="
+baseUrl = "http://www.dir.bg/my/search.php?textfield="
 
 
 -- | Creates search URL from `text` string. Actually it will be splitted
